@@ -1,0 +1,299 @@
+<!--
+========================================================
+PIXEL CRAFT — PAGE FILE
+EDIT GUIDE:
+1. Page text/content -> edit this file.
+2. Design/colors/layout -> ../02-css/style.css
+3. Buttons/interactions -> ../03-js/script.js
+4. Images/logo -> ../04-assets/
+========================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Contact &mdash; Pixel Craft
+  </title>
+  <meta content="Pixel Craft &mdash; premium graphic design, branding, social media and creative design studio." name="description"/>
+  <link href="../04-assets/pixel-craft-logo.png" rel="icon" type="image/png"/>
+  <link href="../02-css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <!-- =====================================================
+     PIXEL CRAFT — PREMIUM ROUND LOADER
+     Edit this text/logo in this block if needed.
+     ===================================================== -->
+  <div id="page-loader">
+   <div class="pc-loader">
+    <div class="pc-loader-ring">
+    </div>
+    <div class="pc-loader-logo">
+     <img alt="Pixel Craft" src="../04-assets/pixel-craft-logo.png"/>
+    </div>
+    <div class="pc-loader-text">
+     LOADING
+    </div>
+   </div>
+  </div>
+  <header class="header">
+   <div class="container navbar">
+    <a class="logo" href="index.html">
+     <img alt="Pixel Craft &mdash; Digital Design Studio" src="../04-assets/pixel-craft-logo.png">
+     </img>
+    </a>
+    <button class="menu">
+     ☰
+    </button>
+    <nav class="nav">
+     <a href="index.html">
+      Home
+     </a>
+     <a href="services.html">
+      Services
+     </a>
+     <a href="portfolio.html">
+      Portfolio
+     </a>
+     <a href="about.html">
+      About
+     </a>
+     <a href="pricing.html">
+      Pricing
+     </a>
+     <a class="quote active" href="contact.html">
+      Start a Project &nearrow;
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <section class="page-hero">
+    <div class="container reveal">
+     <div class="eyebrow">
+      CONTACT PIXEL CRAFT
+     </div>
+     <h1>
+      Tell me what you're
+      <span class="accent">
+       building.
+      </span>
+     </h1>
+     <p>
+      Send a few details and I'll know where to start. No complicated brief required.
+     </p>
+    </div>
+   </section>
+   <section class="section">
+    <div class="container contact-grid">
+     <div class="contact-copy reveal">
+      <div class="eyebrow">
+       LET'S TALK
+      </div>
+      <h1>
+       Let's make your next design
+       <span class="accent">
+        stand out.
+       </span>
+      </h1>
+      <p>
+       For a faster quote, include your service, quantity, deadline and any reference images or links you have.
+      </p>
+      <div class="contact-links">
+       <a href="mailto:pixelcrraft.studio@gmail.com">
+        <span>
+         Email
+        </span>
+        <b>
+         pixelcrraft.studio@gmail.com &nearrow;
+        </b>
+       </a>
+       <a href="https://wa.me/94721207060" target="_blank">
+        <span>
+         WhatsApp
+        </span>
+        <b>
+         Chat on WhatsApp &nearrow;
+        </b>
+       </a>
+       <a href="contact.html">
+        <span>
+         Instagram
+        </span>
+        <b>
+         @pixelcraft &nearrow;
+        </b>
+       </a>
+      </div>
+     </div>
+     <form class="form reveal" id="contactForm">
+      <label>
+       Your name / business
+       <input id="name" placeholder="e.g. ABC Clothing" required=""/>
+      </label>
+      <label>
+       Email or WhatsApp
+       <input id="contact" placeholder="How can I reach you?" required=""/>
+      </label>
+      <label>
+       Service
+       <select id="service" required="">
+        <option value="">
+         Choose a service
+        </option>
+        <option>
+         Logo &amp; Branding
+        </option>
+        <option>
+         Social Media Design
+        </option>
+        <option>
+         YouTube / Gaming
+        </option>
+        <option>
+         Print Design
+        </option>
+        <option>
+         Packaging / Labels
+        </option>
+        <option>
+         Custom Project
+        </option>
+       </select>
+      </label>
+      <label>
+       Project details
+       <textarea id="message" placeholder="What do you need? Quantity? Deadline? Budget?" required="" rows="7"></textarea>
+      </label>
+      <button class="btn dark" type="submit">
+       Send Enquiry &nearrow;
+      </button>
+      <p style="font-size:9px;color:#999;margin-top:12px">
+       The form opens your email app. Change the destination email in js/script.js before publishing.
+      </p>
+     </form>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="container footer-main">
+    <div class="footer-brand">
+     <a class="footer-logo" href="index.html">
+      <img alt="Pixel Craft &mdash; Digital Design Studio" src="../04-assets/pixel-craft-logo.png"/>
+     </a>
+     <p>
+      Digital design studio creating clean, memorable visuals that help brands stand out.
+     </p>
+     <div class="footer-socials">
+      <a aria-label="Instagram" href="#">
+       IG
+      </a>
+      <a aria-label="Facebook" href="#">
+       FB
+      </a>
+      <a aria-label="LinkedIn" href="#">
+       IN
+      </a>
+      <a aria-label="Behance" href="#">
+       BE
+      </a>
+     </div>
+    </div>
+    <div class="footer-column">
+     <h3>
+      Get in Touch
+     </h3>
+     <a href="tel:+94721207060">
+      <span class="footer-icon">
+       &nearrow;
+      </span>
+      +94 72 120 7060
+     </a>
+     <a href="mailto:pixelcrraft.studio@gmail.com">
+      <span class="footer-icon">
+       ✉
+      </span>
+      pixelcrraft.studio@gmail.com
+     </a>
+     <a class="footer-message" href="contact.html">
+      ▣ &nbsp; SEND A MESSAGE
+     </a>
+    </div>
+    <div class="footer-column">
+     <h3>
+      Our Services
+     </h3>
+     <a href="services.html">
+      Logo &amp; Branding
+     </a>
+     <a href="services.html">
+      Social Media Design
+     </a>
+     <a href="services.html">
+      YouTube &amp; Thumbnails
+     </a>
+     <a href="services.html">
+      Packaging &amp; Labels
+     </a>
+     <a href="services.html">
+      Posters &amp; Print Design
+     </a>
+    </div>
+    <div class="footer-column footer-links">
+     <h3>
+      Quick Links
+     </h3>
+     <a href="index.html">
+      Home
+     </a>
+     <a href="services.html">
+      Services
+     </a>
+     <a href="portfolio.html">
+      Portfolio
+     </a>
+     <a href="about.html">
+      About
+     </a>
+     <a href="pricing.html">
+      Pricing
+     </a>
+     <a href="contact.html">
+      Contact
+     </a>
+    </div>
+   </div>
+   <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+     <span>
+      &copy;
+      <span id="year">
+      </span>
+      Pixel Craft. All rights reserved.
+     </span>
+     <span>
+      Designed with
+      <b>
+       ✦
+      </b>
+      by Pixel Craft
+     </span>
+    </div>
+   </div>
+  </footer>
+  <script src="../03-js/script.js">
+  </script>
+  <a aria-label="Chat with Pixel Craft on WhatsApp" class="pc-whatsapp" href="https://wa.me/94721207060?text=Hi%20Pixel%20Craft%2C%20I%27d%20like%20to%20discuss%20a%20design%20project." rel="noopener" target="_blank">
+   <span aria-hidden="true" class="wa-icon">
+    <svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+     <path d="M20.5 3.5A11.84 11.84 0 0 0 12.06 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.15 1.6 5.96L.05 24l6.28-1.65a11.86 11.86 0 0 0 5.72 1.46h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.23-6.16-3.46-8.41ZM12.06 21.8h-.01a9.86 9.86 0 0 1-5.03-1.38l-.36-.21-3.73.98 1-3.64-.23-.37a9.88 9.88 0 1 1 8.36 4.62Zm5.42-7.4c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.95 1.16-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.48-1.75-1.65-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.28.17-1.41-.07-.12-.27-.2-.57-.35Z">
+     </path>
+    </svg>
+   </span>
+   <span>
+    How can I help you?
+   </span>
+  </a>
+ </body>
+</html>

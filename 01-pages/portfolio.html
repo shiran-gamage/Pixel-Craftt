@@ -1,0 +1,528 @@
+<!--
+========================================================
+PIXEL CRAFT — PAGE FILE
+EDIT GUIDE:
+1. Page text/content -> edit this file.
+2. Design/colors/layout -> ../02-css/style.css
+3. Buttons/interactions -> ../03-js/script.js
+4. Images/logo -> ../04-assets/
+========================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Portfolio &mdash; Pixel Craft
+  </title>
+  <meta content="Pixel Craft &mdash; premium graphic design, branding, social media and creative design studio." name="description"/>
+  <link href='https://res.cloudinary.com/ci7tsrio/image/upload/v1789556613/pixel-craft-logo.png' rel="icon" type="image/png"/>
+  <link href="../02-css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <!-- =====================================================
+     PIXEL CRAFT — PREMIUM ROUND LOADER
+     Edit this text/logo in this block if needed.
+     ===================================================== -->
+  <div id="page-loader">
+   <div class="pc-loader">
+    <div class="pc-loader-ring">
+    </div>
+    <div class="pc-loader-logo">
+     <img alt="Pixel Craft" src='https://res.cloudinary.com/ci7tsrio/image/upload/v1789556613/pixel-craft-logo.png'/>
+    </div>
+    <div class="pc-loader-text">
+     LOADING
+    </div>
+   </div>
+  </div>
+  <header class="header">
+   <div class="container navbar">
+    <a class="logo" href="index.html">
+     <img alt="Pixel Craft &mdash; Digital Design Studio" src='https://res.cloudinary.com/ci7tsrio/image/upload/v1789556613/pixel-craft-logo.png'>
+     </img>
+    </a>
+    <button class="menu">
+     ☰
+    </button>
+    <nav class="nav">
+     <a href="index.html">
+      Home
+     </a>
+     <a href="services.html">
+      Services
+     </a>
+     <a class="active" href="portfolio.html">
+      Portfolio
+     </a>
+     <a href="about.html">
+      About
+     </a>
+     <a href="pricing.html">
+      Pricing
+     </a>
+     <a class="quote" href="contact.html">
+      Start a Project &nearrow;
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <section class="page-hero">
+    <div class="container reveal">
+     <div class="eyebrow">
+      SELECTED WORK / PORTFOLIO
+     </div>
+     <h1>
+      Work made to
+      <span class="accent">
+       get attention.
+      </span>
+     </h1>
+     <p>
+      Explore branding, social media, print, gaming, logo design, packaging, posters, YouTube, thumbnails, web design and UI/UX work.
+     </p>
+    </div>
+   </section>
+   <section class="section">
+    <div class="container">
+     <div class="portfolio-toolbar">
+      <div class="filters">
+       <button class="filter active" data-filter="all">
+        All
+       </button>
+       <button class="filter" data-filter="branding">
+        Branding
+       </button>
+       <!-- <button class="filter" data-filter="social">
+        Social
+       </button>
+       <button class="filter" data-filter="print">
+        Print
+       </button>
+       <button class="filter" data-filter="gaming">
+        Gaming
+       </button> -->
+       <button class="filter" data-filter="logo">
+        Logo Design
+       </button>
+       <button class="filter" data-filter="packaging-design">
+        Packaging
+       </button>
+       <button class="filter" data-filter="posters">
+        Posters
+       </button>
+       <button class="filter" data-filter="flyers">
+        Flyers
+       </button>
+       <button class="filter" data-filter="business-cards">
+        Business Cards
+       </button>
+       <button class="filter" data-filter="youtube">
+        YouTube
+       </button>
+       <!-- <button class="filter" data-filter="thumbnails">
+        Thumbnails
+       </button> -->
+       <button class="filter" data-filter="web-design">
+        Web Design
+       </button>
+       <button class="filter" data-filter="uiux">
+        UI/UX
+       </button>
+      </div>
+     </div>
+     <!-- ADD / EDIT YOUR WORK HERE: each .work uses data-category="..." -->
+     <div class="portfolio">
+      <article class="work reveal" data-category="branding" data-desc="A premium coffee identity built with a bold, memorable visual system." data-title="Nova Coffee — Brand Identity">
+       <div class="work-image photo-work">
+        <img class="work-photo" src='https://res.cloudinary.com/ci7tsrio/image/upload/v1789552079/cld-sample-3.jpg' alt="Nova Coffee – Brand Identity" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>01 / BRANDING</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 01-branding.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Nova Coffee</h3>
+         <p>Brand Identity</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article>
+      <article class="work reveal" data-category="branding" data-desc="Elegant visual identity work for a beauty and lifestyle brand." data-title="Astra Beauty — Visual Identity">
+       <div class="work-image photo-work">
+        <img class="work-photo" src='https://res.cloudinary.com/ci7tsrio/image/upload/v1789552075/samples/man-on-a-street.jpg' alt="Astra Beauty — Visual Identity" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>14 / BRANDING</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 14-branding-02.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Astra Beauty</h3>
+         <p>Visual Identity</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article>
+      <!-- <article class="work reveal" data-category="social" data-desc="A high-impact social campaign designed to stand out in a busy feed." data-title="Social Campaign — Social Media Design">
+       <div class="work-image photo-work">
+        <img class="work-photo" src='https://res.cloudinary.com/ci7tsrio/image/upload/v1789552080/cld-sample-4.jpg' alt="Social Campaign — Social Media Design" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>02 / SOCIAL</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 02-social.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Social Campaign</h3>
+         <p>Social Media Design</p>
+        </div>
+        <b>↗</b>
+       </div> 
+      </article> -->
+      <!-- <article class="work reveal" data-category="print" data-desc="A clean print composition focused on typography, contrast and hierarchy." data-title="Studio Poster — Poster / Print">
+       <div class="work-image photo-work">
+        <img class="work-photo" src='https://res.cloudinary.com/ci7tsrio/image/upload/v1789552079/cld-sample.jpg' alt="Studio Poster — Poster / Print" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>03 / PRINT</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 03-print.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Studio Poster</h3>
+         <p>Poster / Print</p>
+        </div>
+        <b>↗</b>
+       </div> 
+      </article> -->
+      <!-- <article class="work reveal" data-category="gaming" data-desc="Cinematic gaming artwork with strong typography and a dark visual mood." data-title="Night Drive — Gaming Creative">
+       <div class="work-image photo-work">
+        <img class="work-photo" src="../04-assets/portfolio/04-gaming.jpg" alt="Night Drive — Gaming Creative" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>04 / GAMING</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 04-gaming.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Night Drive</h3>
+         <p>Gaming Creative</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article> -->
+      <article class="work reveal" data-category="logo" data-desc="A custom logo concept created for a clear and memorable brand presence." data-title="Brand Mark — Logo Design">
+       <div class="work-image photo-work">
+        <img class="work-photo" src='https://res.cloudinary.com/ci7tsrio/image/upload/v1789632478/Beige_Minimalist_Desert_Photo_Collage_2.png' alt="Brand Mark — Logo Design" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>05 / LOGO DESIGN</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 05-logo.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Brand Mark</h3>
+         <p>Logo Design</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article>
+       <article class="work reveal" data-category="logo" data-desc="A custom logo concept created for a clear and memorable brand presence." data-title="Brand Mark — Logo Design">
+       <div class="work-image photo-work">
+        <img class="work-photo" src='https://res.cloudinary.com/ci7tsrio/image/upload/v1789631348/Beige_Minimalist_Desert_Photo_Collage_1.png' alt="Brand Mark — Logo Design" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>05 / LOGO DESIGN</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 05-logo.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Brand Mark</h3>
+         <p>Logo Design</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article>
+       <article class="work reveal" data-category="logo" data-desc="A custom logo concept created for a clear and memorable brand presence." data-title="Brand Mark — Logo Design">
+       <div class="work-image photo-work">
+        <img class="work-photo" src='https://res.cloudinary.com/ci7tsrio/image/upload/v1789632229/Neutral_Collage_2026_Vision_Board.png' alt="Brand Mark — Logo Design" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>05 / LOGO DESIGN</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 05-logo.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Brand Mark</h3>
+         <p>Logo Design</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article>
+      <article class="work reveal" data-category="packaging-design" data-desc="Packaging artwork designed to make the product feel premium and shelf-ready." data-title="Product Pack — Packaging Design">
+       <div class="work-image photo-work">
+        <img class="work-photo" src="../04-assets/portfolio/06-packaging.jpg" alt="Product Pack — Packaging Design" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>06 / PACKAGING</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 06-packaging.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Product Pack</h3>
+         <p>Packaging Design</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article>
+      <article class="work reveal" data-category="posters" data-desc="Bold poster artwork for events, promotions and campaigns." data-title="Event Poster — Poster Design">
+       <div class="work-image photo-work">
+        <img class="work-photo" src="../04-assets/portfolio/07-posters.jpg" alt="Event Poster — Poster Design" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>07 / POSTERS</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 07-posters.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Event Poster</h3>
+         <p>Poster Design</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article>
+      <article class="work reveal" data-category="flyers" data-desc="Promotional flyer design with a clear message and strong visual hierarchy." data-title="Promo Flyer — Flyer Design">
+       <div class="work-image photo-work">
+        <img class="work-photo" src="../04-assets/portfolio/08-flyers.jpg" alt="Promo Flyer — Flyer Design" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>08 / FLYERS</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 08-flyers.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Promo Flyer</h3>
+         <p>Flyer Design</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article>
+      <article class="work reveal" data-category="business-cards" data-desc="Professional business card artwork for a polished first impression." data-title="Business Card — Print Design">
+       <div class="work-image photo-work">
+        <img class="work-photo" src="../04-assets/portfolio/09-business-cards.jpg" alt="Business Card — Print Design" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>09 / BUSINESS CARDS</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 09-business-cards.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Business Card</h3>
+         <p>Print Design</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article>
+      <article class="work reveal" data-category="youtube" data-desc="YouTube channel graphics and creator visuals built for consistency." data-title="Creator Branding — YouTube Design">
+       <div class="work-image photo-work">
+        <img class="work-photo" src="../04-assets/portfolio/10-youtube.jpg" alt="Creator Branding — YouTube Design" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>10 / YOUTUBE</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 10-youtube.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Creator Branding</h3>
+         <p>YouTube Design</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article>
+      <article class="work reveal" data-category="thumbnails" data-desc="Clickable thumbnail design made to communicate the video idea instantly." data-title="Video Thumbnail — Thumbnail Design">
+       <div class="work-image photo-work">
+        <img class="work-photo" src="../04-assets/portfolio/11-thumbnails.jpg" alt="Video Thumbnail — Thumbnail Design" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>11 / THUMBNAILS</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 11-thumbnails.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Video Thumbnail</h3>
+         <p>Thumbnail Design</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article>
+      <!-- <article class="work reveal" data-category="web-design" data-desc="Modern web visual design with strong layout, spacing and conversion-focused hierarchy." data-title="Landing Page — Web Design">
+       <div class="work-image photo-work">
+        <img class="work-photo" src="../04-assets/portfolio/12-web-design.jpg" alt="Landing Page — Web Design" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>12 / WEB DESIGN</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 12-web-design.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>Landing Page</h3>
+         <p>Web Design</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article> -->
+      <!-- <article class="work reveal" data-category="uiux" data-desc="Clean interface concepts focused on usability and visual consistency." data-title="App Interface — UI/UX Design">
+       <div class="work-image photo-work">
+        <img class="work-photo" src="../04-assets/portfolio/13-uiux.jpg" alt="App Interface — UI/UX Design" loading="lazy"/>
+        <div class="photo-shade"></div>
+        <span>13 / UI/UX</span>
+        <div class="photo-edit-hint">EDIT IMAGE → 13-uiux.jpg</div>
+       </div>
+       <div class="work-meta">
+        <div>
+         <h3>App Interface</h3>
+         <p>UI/UX Design</p>
+        </div>
+        <b>↗</b>
+       </div>
+      </article>
+       -->
+      
+      
+     </div>
+    </div>
+   </section>
+  </main>
+  <div class="modal">
+   <div class="backdrop">
+   </div>
+   <div class="modal-box">
+    <button class="close">
+     &times;
+    </button>
+    <div class="modal-img">
+    </div>
+    <div class="modal-content">
+     <div class="eyebrow">
+      PROJECT
+     </div>
+     <h2 id="modalTitle">
+     </h2>
+     <p id="modalText">
+     </p>
+     <a class="btn dark" href="contact.html">
+      Create something similar &nearrow;
+     </a>
+    </div>
+   </div>
+  </div>
+  <footer class="footer">
+   <div class="container footer-main">
+    <div class="footer-brand">
+     <a class="footer-logo" href="index.html">
+      <img alt="Pixel Craft &mdash; Digital Design Studio" src='https://res.cloudinary.com/ci7tsrio/image/upload/v1789556613/pixel-craft-logo.png'/>
+     </a>
+     <p>
+      Digital design studio creating clean, memorable visuals that help brands stand out.
+     </p>
+     <div class="footer-socials">
+      <a aria-label="Instagram" href="#">
+       IG
+      </a>
+      <a aria-label="Facebook" href="#">
+       FB
+      </a>
+      <a aria-label="LinkedIn" href="#">
+       IN
+      </a>
+      <a aria-label="Behance" href="#">
+       BE
+      </a>
+     </div>
+    </div>
+    <div class="footer-column">
+     <h3>
+      Get in Touch
+     </h3>
+     <a href="tel:+94721207060">
+      <span class="footer-icon">
+       &nearrow;
+      </span>
+     +94 72 120 7060
+     </a>
+     <a href="mailto:pixelcrraft.studio@gmail.com">
+      <span class="footer-icon">
+       ✉
+      </span>
+     pixelcrraft.studio@gmail.com
+     </a>
+     <a class="footer-message" href="contact.html">
+      ▣ &nbsp; SEND A MESSAGE
+     </a>
+    </div>
+    <div class="footer-column">
+     <h3>
+      Our Services
+     </h3>
+     <a href="services.html">
+      Logo &amp; Branding
+     </a>
+     <a href="services.html">
+      Social Media Design
+     </a>
+     <a href="services.html">
+      YouTube &amp; Thumbnails
+     </a>
+     <a href="services.html">
+      Packaging &amp; Labels
+     </a>
+     <a href="services.html">
+      Posters &amp; Print Design
+     </a>
+    </div>
+    <div class="footer-column footer-links">
+     <h3>
+      Quick Links
+     </h3>
+     <a href="index.html">
+      Home
+     </a>
+     <a href="services.html">
+      Services
+     </a>
+     <a href="portfolio.html">
+      Portfolio
+     </a>
+     <a href="about.html">
+      About
+     </a>
+     <a href="pricing.html">
+      Pricing
+     </a>
+     <a href="contact.html">
+      Contact
+     </a>
+    </div>
+   </div>
+   <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+     <span>
+      &copy;
+      <span id="year">
+      </span>
+      Pixel Craft. All rights reserved.
+     </span>
+     <span>
+      Designed with
+      <b>
+       ✦
+      </b>
+      by Pixel Craft
+     </span>
+    </div>
+   </div>
+  </footer>
+  <script src="../03-js/script.js">
+  </script>
+  <a aria-label="Chat with Pixel Craft on WhatsApp" class="pc-whatsapp" href="https://wa.me/94721207060?text=Hi%20Pixel%20Craft%2C%20I%27d%20like%20to%20discuss%20a%20design%20project." rel="noopener" target="_blank">
+   <span aria-hidden="true" class="wa-icon">
+    <svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+     <path d="M20.5 3.5A11.84 11.84 0 0 0 12.06 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.15 1.6 5.96L.05 24l6.28-1.65a11.86 11.86 0 0 0 5.72 1.46h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.23-6.16-3.46-8.41ZM12.06 21.8h-.01a9.86 9.86 0 0 1-5.03-1.38l-.36-.21-3.73.98 1-3.64-.23-.37a9.88 9.88 0 1 1 8.36 4.62Zm5.42-7.4c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.95 1.16-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.48-1.75-1.65-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.28.17-1.41-.07-.12-.27-.2-.57-.35Z">
+     </path>
+    </svg>
+   </span>
+   <span>
+    How can I help you?
+   </span>
+  </a>
+ </body>
+</html>
